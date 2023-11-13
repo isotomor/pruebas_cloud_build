@@ -5,5 +5,6 @@ def function_ejercicio_gcp(event, context):
          context (google.cloud.functions.Context): Metadata for the event.
     """
     print("HOLA MUNDO")
+    print("HOLA MÜNDOOOOO")
     file = event
     print(f"Processing file: {file['name']}.")
